@@ -1,0 +1,22 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        // const makePower = (n) => (m) => Math.pow(m, n) 箭头函数，闭包中this指向undefined
+        const makePower = function (n) {
+            return function(m) {
+                Math.pow(m, n)
+            } 
+        }
+        const power2 = makePower(2)
+        const power3 = makePower(3)
+        console.log(power2(4))
+        console.log(power2(5))
+        console.log(power3(4))
+    </script>
+</body>
+</html>
