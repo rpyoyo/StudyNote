@@ -1,4 +1,4 @@
-###  函数一等公民 (First-class Function)
+### 函数一等公民 (First-class Function)
 + 函数可以存储在变量中
 + 函数可以作为参数
 + 函数可以作为返回值
